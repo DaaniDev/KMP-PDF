@@ -6,12 +6,12 @@ plugins {
     id("maven-publish")
 }
 group = "com.github.DaaniDev"
-version = "1.0.0"
+version = "1.0.2"
 kotlin {
     androidTarget {
         compilations.all {
             kotlinOptions {
-                jvmTarget = "1.8"
+                jvmTarget = "11"
             }
         }
     }
